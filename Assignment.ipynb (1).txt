@@ -1,0 +1,98 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "q984TpJtzP1q",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "dc93f3c6-581c-462d-ce53-22581b27ecce"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Name: imran, Marks: 38\n"
+          ]
+        }
+      ],
+      "source": [
+        "# ===========================================\n",
+        "# Assignment 1: Dictionaries Practice\n",
+        "# ===========================================\n",
+        "\n",
+        "# 1️⃣ Roll Numbers Dictionary\n",
+        "rollnumbers= {\n",
+        "    \"001\": \"Ali\",\n",
+        "    \"002\": \"Usama\",\n",
+        "    \"003\": \"Kamran\",\n",
+        "    \"004\": \"Hassan\",\n",
+        "    \"005\": \"shan\",\n",
+        "    \"006\": \"Bilal\",\n",
+        "    \"007\": \"Umer\",\n",
+        "    \"008\": \"Amir\",\n",
+        "    \"009\": \"Asif\",\n",
+        "    \"010\": \"imran\"\n",
+        "}\n",
+        "\n",
+        "# 2️⃣ NamesNames Dictionary\n",
+        "names = {\n",
+        "    \"001\": \"Ali\",\n",
+        "    \"002\": \"Usama\",\n",
+        "    \"003\": \"Kamran\",\n",
+        "    \"004\": \"Hassan\",\n",
+        "    \"005\": \"shan\",\n",
+        "    \"006\": \"Bilal\",\n",
+        "    \"007\": \"Umer\",\n",
+        "    \"008\": \"Amir\",\n",
+        "    \"009\": \"Asif\",\n",
+        "    \"010\": \"imran\"\n",
+        "}\n",
+        "\n",
+        "# 3️⃣ Marks Dictionary\n",
+        "marks = {\n",
+        "    \"001\": 45,\n",
+        "    \"002\": 39,\n",
+        "    \"003\": 48,\n",
+        "    \"004\": 41,\n",
+        "    \"005\": 44,\n",
+        "    \"006\": 36,\n",
+        "    \"007\": 50,\n",
+        "    \"008\": 42,\n",
+        "    \"009\": 47,\n",
+        "    \"010\": 38\n",
+        "}\n",
+        "\n",
+        "\n",
+        "roll = \"010\"\n",
+        "print(f\"Name: {names[roll]}, Marks: {marks[roll]}\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "nnrnaBTnz2M8"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
